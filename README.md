@@ -3,9 +3,13 @@
 Sparkify is a (fictional) digital music service similar to Spotify or Pandora. Many users stream the songs from the 
 service every day either using the free tier that place advertisements between the songs or using the premium 
 subscription model, where they stream music with no advertisements but paying a monthly fee rate. Users can upgrade, 
-downgrade or cancel their service at any time so it is important that the users love the service. Every time the 
+downgrade or cancel their service at any time so it is important that the users love the service. 
+
+Every time the 
 user interacts with the service while they are playing songs, logging out, liking in a song or downgrading the
-service, it generates data. The purpose of this project is to use this data generated to predict which users are
+service, it generates data. 
+
+The purpose of this project is to use this data generated to predict which users are
 at risk to churn downgrading from premium to free tier since this can potentially save the company money in revenues.
 
 ## Table of Contents
@@ -40,7 +44,7 @@ the service
 
 ## Summary of Results
 
-After training 5 different models, the accuracy and f1 score obtained for each of the is displayed in the following 
+After training 5 different models, the accuracy and f1 score obtained for each one is displayed in the following 
 table:
 
 | Model name | Accuracy | f1score | Training time (min:sec)|
@@ -51,10 +55,14 @@ table:
 | Gradient Boosted Trees | 0.685714 | 0.717108 | 04:24.014526|
 | LinearSVC | 0.828571 | 0.750893 | 04:04.784299 |
 
-A comparison of these results is displayed on the following pictures:
+<br />
+
+A comparison of these results can be seen in the following pictures:
 
 ![Accuracy](https://github.com/pedflotor/Sparkify-Churn-Prediction/blob/master/images/Accuracy.png)
 ![f1score](https://github.com/pedflotor/Sparkify-Churn-Prediction/blob/master/images/f1score.png)
+
+<br />
 
 The model with the best result is *Logistic Regresion* with an accuracy of 0.885 and a f1 score of 0.861. The features 
 that have more impact are registration_min, errors, friend, played_time_session, avg_songs_session and thumbs_down as 
@@ -62,7 +70,9 @@ the picture below depicts.
 
 ![coeff](https://github.com/pedflotor/Sparkify-Churn-Prediction/blob/master/images/coeff.png)
 
-From them the higher the value of these features are, most likely the user will stay in the service and will not churn. 
+From them, the higher the value of these features are, most likely the user will stay in the service and will not churn. 
+
+<br />
 
 In order to improve the model in the future it would be good to try with a bigger dataset where the models have more 
 data to learn from and use more parameters in Grid Search to tune the models
