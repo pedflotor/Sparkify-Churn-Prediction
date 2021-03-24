@@ -3,12 +3,12 @@
 Sparkify is a (fictional) digital music service similar to Spotify or Pandora. Many users stream the songs from the 
 service every day either using the free tier that place advertisements between the songs or using the premium 
 subscription model, where they stream music with no advertisements but paying a monthly fee rate. Users can upgrade, 
-downgrade or cancel their service at any time so it is important that the users love the service. 
+downgrade or cancel their service at any time, so it is important that the users love the service. 
 
-Every time the 
-user interacts with the service while they are playing songs, logging out, liking in a song or downgrading the
-service, it generates data. The purpose of this project is to use this data generated to predict which users are
-at risk to churn downgrading from premium to free tier since this can potentially save the company money in revenues.
+Every time the user interacts with the service while they are playing songs, logging out, liking in a song or 
+downgrading the service, it generates data. The purpose of this project is to use this data generated to predict which 
+users are at risk to churn downgrading from premium to free tier since this can potentially save the company 
+considerable money in revenues.
 
 ## Table of Contents
 
