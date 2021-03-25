@@ -77,7 +77,7 @@ data to learn from and use more parameters in Grid Search to tune the models
 
 
 ## Article of the Project
-+ https:
++ https://petanth91.medium.com/churn-prediction-in-sparkify-a-digital-music-service-26aa8640bffb?sk=94e1836865a2fcc1cae7c37ab9495aa4
 
 ## Acknowledgements
 + https://spark.apache.org/docs/latest/ml-classification-regression.html
