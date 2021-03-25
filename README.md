@@ -81,5 +81,6 @@ data to learn from and use more parameters in Grid Search to tune the models
 
 ## Acknowledgements
 + https://spark.apache.org/docs/latest/ml-classification-regression.html
++ https://spark.apache.org/docs/latest/ml-tuning.html  
 + https://www.displayr.com/how-to-interpret-logistic-regression-coefficients/
 + https://www.udacity.com/course/learn-spark-at-udacity--ud2002
