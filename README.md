@@ -6,9 +6,9 @@ subscription model, where they stream music with no advertisements but paying a 
 downgrade or cancel their service at any time, so it is important that the users love the service. 
 
 Every time the user interacts with the service while they are playing songs, logging out, liking in a song or 
-downgrading the service, it generates data. The purpose of this project is to use this data generated to predict which 
-users are at risk to churn downgrading from premium to free tier since this can potentially save the company 
-considerable money in revenues.
+downgrading the service, it generates data. The purpose of this project is to use this data generated to predict 
+which users are at risk to churn deleting their accounts since this can potentially save the company considerable 
+money in revenues.
 
 ## Table of Contents
 
